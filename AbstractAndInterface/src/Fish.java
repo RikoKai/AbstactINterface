@@ -24,4 +24,9 @@ public class Fish implements Animal {
     public boolean canFly() {
         return false;
     }
+
+    @Override
+    public String fun() {
+        return Animal.super.fun();
+    }
 }
